@@ -1,0 +1,35 @@
+import type { Metadata } from "next";
+
+export const siteConfig: Metadata = {
+  title: "Pâm Ascef | Portfolio",
+  description: "Welcome to my full stack portfolio.",
+  keywords: [
+    "reactjs",
+    "nextjs",
+    "vercel",
+    "react",
+    "portfolio",
+    "react-icons",
+    "framer-motion",
+    "motion",
+    "animation",
+    "heroicons",
+    "next-themes",
+    "postcss",
+    "prettier",
+    "react-dom",
+    "tailwindcss",
+    "tailwindcss-animate",
+    "ui/ux",
+    "js",
+    "javascript",
+    "typescript",
+    "eslint",
+    "html",
+    "css",
+  ] as Array<string>,
+  authors: {
+    name: "Pâm Ascef",
+    url: "https://github.com/ascef182",
+  },
+} as const;

@@ -19,7 +19,7 @@ export default function ContactPage() {
             <FaLinkedin className="w-10 h-10 text-cyan-400 hover:text-purple-400 transition-colors" />
           </a>
         </div>
-        <p className="text-white text-xl font-semibold text-center">let's build something together</p>
+        <p className="text-white text-xl font-semibold text-center">let&apos;s build something together</p>
       </div>
     </section>
   );
